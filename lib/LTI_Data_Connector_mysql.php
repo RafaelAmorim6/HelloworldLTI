@@ -119,7 +119,7 @@ class LTI_Data_Connector_MySQL extends LTI_Data_Connector {
       $enabled = 0;
     }
     $time = time();
-    $now = date('Y-m-d H:i:s', $time);
+php-rating-1
     $from = NULL;
     if (!is_null($consumer->enable_from)) {
       $from = date('Y-m-d H:i:s', $consumer->enable_from);
